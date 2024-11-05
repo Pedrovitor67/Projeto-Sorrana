@@ -1,8 +1,8 @@
 const mobileNav=()=>{
 
-    const headerBars=document.querySelector('.header__navbar__click')
-    const mobileNav=document.querySelector('.mobile-nav')
-    const navlinks=document.querySelectorAll('.mobile-nav__link')
+    const headerBars=document.querySelector('.header__navbar__click') //Botão da navbar
+    const mobileNav=document.querySelector('.mobile-nav')            //Barra de navegação mobile
+    const navlinks=document.querySelectorAll('.mobile-nav__link')   //Links da navegação mobile
     let isMobileOpen=false
     
 
