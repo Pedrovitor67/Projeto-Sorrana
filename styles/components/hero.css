@@ -5,6 +5,9 @@
     gap: 2rem;
     height: 100%; /*Min-height para melhor responsividade*/
     overflow: hidden;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
     
 }
 
