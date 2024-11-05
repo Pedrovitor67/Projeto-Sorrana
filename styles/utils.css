@@ -31,9 +31,10 @@
 
 
 
-
-
-
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
 
 
 
@@ -59,7 +60,6 @@
 
 
 .btnBlack{
-
     display: inline-block;
     background-color: var(--black);
     text-decoration: none;
@@ -75,12 +75,14 @@
 }
 
 .container{
-    width: 100%;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
     
+    
+        
 }
 
 .gray{

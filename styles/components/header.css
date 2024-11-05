@@ -2,8 +2,9 @@
     padding: 2rem;
     position: sticky;
     top: 0;
-    /* position: relative; */
+     /* position: relative;  */
     z-index: 9999;
+   
 }
 
 .header__navbar{
@@ -108,11 +109,17 @@
 } 
 
 /* xl */
- /* @media (min-width: 1280px) {
+  @media (min-width: 1280px) {
+
+    .header__navlist{
+        font-size: var(--size-2xl);
+    }
+
+
 
     
   
-}  */
+}  
 
 /* 2xl */
 /* @media (min-width: 1536px) {

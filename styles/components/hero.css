@@ -89,6 +89,8 @@
     .hero{
     justify-content: space-between;
     align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
     }
 
     
