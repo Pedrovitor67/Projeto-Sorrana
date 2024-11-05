@@ -1,0 +1,155 @@
+.medidas{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.medidas__title{
+    font-size: var(--size-4xl);
+    margin-bottom: 0.5rem;
+}
+
+.medidas__line{
+    width: 20%;
+    margin-bottom: 2rem;
+    border: 1px solid var(--black);
+}
+
+.medidas__subtitle{
+    font-size: var(--size-base);
+    margin-bottom: 2rem;
+    width: 33ch;  
+}
+
+table,tr,td{
+    border: 1px solid var(--black);   
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td{
+    padding: 0.5rem;
+}
+
+.medidas__caracteristica{
+    font-weight: bold;
+}
+
+.medidas__image{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 750px;
+    height: auto;
+    overflow: hidden;
+}
+
+.medidas__image img{
+    object-fit: cover;
+      width: 100%;
+      background-position: center;
+     height: 100%;   
+}
+
+
+/* xs */
+/* @media (min-width: 475px) {
+  
+} */
+
+/* sm */
+ @media (min-width: 640px) {
+    .medidas{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .medidas__image{
+        margin-top: 3rem;
+    }
+  
+} 
+
+/* md */
+/* @media (min-width: 768px) {
+ 
+} */
+
+/* lg */
+ @media (min-width: 1024px) {
+
+
+    .medidas__text{
+        flex: 1;
+    }
+
+    .medidas__title{
+        font-size: var(--size-5xl);
+    }
+
+    table{
+        font-size: var(--size-xl);
+    }
+
+    .medidas__subtitle{
+        font-size: var(--size-xl);
+    }
+
+    .medidas__image{
+        display: flex;
+        /* height: 500px; */
+        justify-content: flex-end;
+        flex: 1;
+
+    }
+
+    table{
+        width: 90%;
+    }
+  
+} 
+
+/* xl */
+ @media (min-width: 1280px) {
+    table{
+        width: 80%;
+    }
+
+    .medidas__title{
+        font-size: var(--size-5xl);
+    }
+
+    .medidas{
+        padding-top: 3rem;
+    }
+
+
+    .medidas__subtitle{
+        width: 50ch;
+    }
+
+    .medidas__image{
+        max-width: 35%;
+        
+    }
+
+    
+    
+  
+} 
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+  
+} */
+
